@@ -1,5 +1,5 @@
-# RecyclerViewTools
-Collection of tools for RecyclerView.
+# RecyclerViewTools 
+Collection of tools for RecyclerView. [ ![Download](https://api.bintray.com/packages/eyeem/maven/recyclerview-tools/images/download.svg) ](https://bintray.com/eyeem/maven/recyclerview-tools/_latestVersion)
 
 This collection was developed with two main goals: easy to code (very simple API) & robust (it really works).
 Includes:
@@ -12,18 +12,14 @@ Includes:
 # Usage
 Seriously couldn't be simpler:
 
-### Add to Gradle build script
+### Add to Gradle build script the lib
 
 ```Java
-repositories {
-    maven {
-        url 'https://oss.sonatype.org/content/repositories/snapshots/'
-    }
-}
-
 dependencies {
-    compile 'com.eyeem.recyclerviewtools:library:0.0.3-SNAPSHOT@aar'
-    compile 'com.eyeem.recyclerviewtools:library-extras:0.0.3-SNAPSHOT@aar'
+
+    ... your other dependencies
+
+    compile 'com.eyeem.recyclerviewtools:library:{latest}'
 }
 ```
 
